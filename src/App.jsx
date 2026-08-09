@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import {
-  Mail, Phone, Linkedin, Github, Copy, Check, ArrowUpRight, ArrowRight,
+  Mail, Linkedin, Github, Copy, Check, ArrowUpRight, ArrowRight,
   Code2, Database, Cpu, Sparkles, Menu, X,
 } from "lucide-react";
 
@@ -22,7 +22,6 @@ const DATA = {
   tagline:
     "CS undergraduate who ships full-stack apps end to end — from schema design to a polished UI.",
   email: "vishukawatra7@gmail.com",
-  phone: "+91 9729490504",
   linkedin: "https://www.linkedin.com/in/piyush-kwatra-9a97823ab/",
   github: "https://github.com/Piyush00189",
   summary:
@@ -612,16 +611,6 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <CopyButton value={DATA.email} />
-              </TiltCard>
-              <TiltCard maxTilt={5} className="p-5 rounded-lg flex items-center justify-between gap-3" style={{ background: "#161129", border: "1px solid #241D40" }}>
-                <div className="flex items-center gap-3 min-w-0">
-                  <Phone size={18} style={{ color: "#9B6BFF" }} className="shrink-0" />
-                  <div className="min-w-0">
-                    <div className="text-[11px] mono" style={{ color: "#6F6690" }}>phone</div>
-                    <div className="text-sm truncate" style={{ color: "#F3F0FA" }}>{DATA.phone}</div>
-                  </div>
-                </div>
-                <CopyButton value={DATA.phone} />
               </TiltCard>
             </div>
           </Reveal>
