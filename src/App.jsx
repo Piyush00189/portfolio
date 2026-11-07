@@ -62,7 +62,7 @@ const DATA = {
     {
       id: "diet",
       tag: "python project",
-      name: "AI Diet Chart & Nutrition Calculator",
+      name: "NutriApp",
       stack: ["Python", "CustomTkinter", "MySQL", "Google Gemini API"],
       blurb:
         "A full desktop nutrition application spanning 20+ interconnected modules — authentication, calculators, meal planning, and progress tracking.",
