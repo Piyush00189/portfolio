@@ -24,7 +24,7 @@ const DATA = {
   email: "vishukawatra7@gmail.com",
   phone: "+91 9729490504",
   linkedin: "https://linkedin.com/in/Piyush",
-  github: "https://github.com/",
+  github: "https://github.com/Piyush00189",
   summary:
     "Computer Science undergraduate with hands-on experience building full-stack desktop applications in Python and Java, including a 20+ module AI-integrated nutrition app and a relational database system for hotel management. Comfortable across the stack: schema design, backend logic, authentication, and UI. Currently sharpening data structures and system design fundamentals while looking for an entry-level Software Developer role.",
   education: [
@@ -63,7 +63,7 @@ const DATA = {
     {
       id: "diet",
       tag: "python project",
-      name: "AI Diet Chart & Nutrition Calculator",
+      name: "NutriApp",
       stack: ["Python", "CustomTkinter", "MySQL", "Google Gemini API"],
       blurb:
         "A full desktop nutrition application spanning 20+ interconnected modules — authentication, calculators, meal planning, and progress tracking.",
